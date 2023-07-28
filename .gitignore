@@ -1,0 +1,8 @@
+# Ignore everything
+*.*
+
+# Whitelist
+!alacritty/*.*
+!nvim/*.*
+!i3/*.*
+!.gitignore
