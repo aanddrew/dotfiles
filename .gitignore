@@ -1,8 +1,10 @@
 # Ignore everything
-*.*
+*
+# Descend into directories
+!*/
 
 # Whitelist
-!alacritty/*.*
-!nvim/*.*
-!i3/*.*
+!/alacritty/**
+!/nvim/**
+!/i3/**
 !.gitignore
