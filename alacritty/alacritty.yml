@@ -1,2 +1,9 @@
 font:
   size: 14.0
+
+shell:
+  program: /bin/bash
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"

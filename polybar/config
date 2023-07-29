@@ -59,7 +59,7 @@ cursor-scroll = ns-resize
 
 enable-ipc = true
 
-; tray-position = right
+tray-position = right
 
 ; wm-restack = generic
 ; wm-restack = bspwm
@@ -160,8 +160,8 @@ label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
 type = internal/date
 interval = 1
 
-date = %H:%M
-date-alt = %Y-%m-%d %H:%M:%S
+date = %d %b %Y | %I:%M:%S %p
+; date-alt = %Y-%m-%d %I:%M:%S %p
 
 label = %date%
 label-foreground = ${colors.primary}

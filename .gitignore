@@ -7,4 +7,6 @@
 !/alacritty/**
 !/nvim/**
 !/i3/**
+!/polybar/**
+!/tmux/**
 !.gitignore

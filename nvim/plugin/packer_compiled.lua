@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["completion-nvim"] = {
+    loaded = true,
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/completion-nvim",
+    url = "https://github.com/nvim-lua/completion-nvim"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/harpoon",

@@ -194,3 +194,5 @@ bindsym $mod+r mode "resize"
 # }
 
 bindsym $mod+x move workspace to output next
+
+hide_edge_borders both
