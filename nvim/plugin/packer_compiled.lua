@@ -84,20 +84,25 @@ _G.packer_plugins = {
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["completion-nvim"] = {
+  ["coc.nvim"] = {
     loaded = true,
-    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/completion-nvim",
-    url = "https://github.com/nvim-lua/completion-nvim"
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
   },
-  ["copilot.vim"] = {
+  ["copilot.lua"] = {
     loaded = true,
-    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/copilot.lua",
+    url = "https://github.com/zbirenbaum/copilot.lua"
   },
   harpoon = {
     loaded = true,
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
+  },
+  ["lexima.vim"] = {
+    loaded = true,
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/lexima.vim",
+    url = "https://github.com/cohama/lexima.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -149,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["telescope-recent-files"] = {
+    loaded = true,
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/telescope-recent-files",
+    url = "https://github.com/smartpde/telescope-recent-files"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -163,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/andrew/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-terraform"] = {
+    loaded = true,
+    path = "/home/andrew/.local/share/nvim/site/pack/packer/start/vim-terraform",
+    url = "https://github.com/hashivim/vim-terraform"
   }
 }
 

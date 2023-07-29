@@ -21,8 +21,20 @@ return require('packer').startup(function(use)
   use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
-  use('github/copilot.vim')
-  use('nvim-lua/completion-nvim')
+  -- use('nvim-lua/completion-nvim')
+  use('neoclide/coc.nvim')
+  use('cohama/lexima.vim')
+  use('hashivim/vim-terraform')
+  use('smartpde/telescope-recent-files')
+
+  use {
+  	'zbirenbaum/copilot.lua',
+	cmd = "Copilot",
+	event = "InsertEnter",
+	config = function()
+		require("copilot").setup({})
+	end,
+	}
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
